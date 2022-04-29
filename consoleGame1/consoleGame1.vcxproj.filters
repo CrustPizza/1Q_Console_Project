@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Network">
+      <UniqueIdentifier>{a38f4ad3-df9c-4f2e-b3bd-939ce26b1a3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Server">
+      <UniqueIdentifier>{a9851a66-4ece-4bf7-9cda-ee445d12dba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Iocp">
+      <UniqueIdentifier>{53be258a-5ac0-4f0c-b2a5-18bebcc6bd21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Socket">
+      <UniqueIdentifier>{8f2e1467-056d-45e3-bbe9-28b6c6601427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Endpoint">
+      <UniqueIdentifier>{6b0df80e-5613-4ded-a06e-8bddf24c6b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Exception">
+      <UniqueIdentifier>{dacf74b8-7119-4be5-b7a4-c5efe3852d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Client">
+      <UniqueIdentifier>{058dc700-22ea-4b67-8553-8908a9f719d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game\UI">
+      <UniqueIdentifier>{6eca0d58-ccd6-4537-8337-ce8593be6bfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{50e68b20-a0b8-4061-b8ea-4eccd47b9835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Character">
+      <UniqueIdentifier>{11c760bf-d594-40db-946e-d974bf094e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Map">
+      <UniqueIdentifier>{a7799945-5982-4182-a055-3586e8ebcede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Bomb">
+      <UniqueIdentifier>{44c0e56f-86a3-40dc-8a2b-ce7c1e689536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{672456e2-660a-47b1-9ec0-54b3a4c65938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Render">
+      <UniqueIdentifier>{17d79917-a21d-4840-9af7-9eb069c28cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Controller">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{c7e53c48-6cce-46ac-b9ee-0d74c87d8644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Sound">
+      <UniqueIdentifier>{35467e94-2b58-499a-99e5-855a13b48695}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Network\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Iocp.cpp">
+      <Filter>Network\Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>Network\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Endpoint.cpp">
+      <Filter>Network\Endpoint</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Network\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="Socketinit.cpp">
+      <Filter>Network\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="controller.cpp">
+      <Filter>Engine\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="character.cpp">
+      <Filter>Game\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>Engine\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="ui.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>Game\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="bomb.cpp">
+      <Filter>Game\Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>Network\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="sound.cpp">
+      <Filter>Engine\Sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Server.h">
+      <Filter>Network\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Iocp.h">
+      <Filter>Network\Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>Network\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Endpoint.h">
+      <Filter>Network\Endpoint</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Network\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Socketinit.h">
+      <Filter>Network\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="controller.h">
+      <Filter>Engine\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="character.h">
+      <Filter>Game\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>Game\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="bomb.h">
+      <Filter>Game\Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>Network\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>Engine\Sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
