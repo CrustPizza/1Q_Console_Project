@@ -1,49 +1,49 @@
 ﻿  stdafx.cpp
-  bomb.cpp
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\bomb.cpp(37,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'bomb_effect' 왼쪽은 무시됩니다.
-  character.cpp
-  client.cpp
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\client.cpp(105,53): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\client.cpp(146,45): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   controller.cpp
+  render.cpp
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\Engine\render.cpp(68,21): warning C4838: 'const int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\Engine\render.cpp(68,24): warning C4838: 'const int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\Engine\render.cpp(69,36): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\Engine\render.cpp(69,36): warning C4267: '초기화 중': 'size_t'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\Engine\render.cpp(88,21): warning C4838: 'const int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\Engine\render.cpp(88,24): warning C4838: 'const int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\Engine\render.cpp(89,36): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\Engine\render.cpp(89,36): warning C4267: '초기화 중': 'size_t'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  sound.cpp
+  bomb.cpp
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\Game\bomb.cpp(37,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'bomb_effect' 왼쪽은 무시됩니다.
+  character.cpp
+  game.cpp
+  map.cpp
+  scene.cpp
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\Game\scene.cpp(235,32): warning C4244: '=': 'ULONGLONG'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\Game\scene.cpp(256,39): warning C4267: '=': 'size_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\Game\scene.cpp(266,22): warning C4244: '=': 'time_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\Game\scene.cpp(270,39): warning C4267: '=': 'size_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\Game\scene.cpp(311,32): warning C4244: '=': 'ULONGLONG'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\Game\scene.cpp(375,37): warning C4267: '=': 'size_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\Game\scene.cpp(389,32): warning C4244: '=': 'ULONGLONG'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\Game\scene.cpp(424,37): warning C4267: '=': 'size_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\Game\scene.cpp(442,32): warning C4244: '=': 'ULONGLONG'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ui.cpp
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\Game\ui.cpp(263,74): warning C4267: '인수': 'size_t'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\Game\ui.cpp(304,77): warning C4267: '인수': 'size_t'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  main.cpp
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\main.cpp(12,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\main.cpp(99,34): warning C4244: '=': 'ULONGLONG'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  client.cpp
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\Network\Client\client.cpp(105,53): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\Network\Client\client.cpp(146,45): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   Endpoint.cpp
   Exception.cpp
-  game.cpp
   Iocp.cpp
-  main.cpp
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\main.cpp(12,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\main.cpp(99,34): warning C4244: '=': 'ULONGLONG'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  map.cpp
-  render.cpp
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\render.cpp(68,21): warning C4838: 'const int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\render.cpp(68,24): warning C4838: 'const int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\render.cpp(69,36): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\render.cpp(69,36): warning C4267: '초기화 중': 'size_t'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\render.cpp(88,21): warning C4838: 'const int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\render.cpp(88,24): warning C4838: 'const int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\render.cpp(89,36): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\render.cpp(89,36): warning C4267: '초기화 중': 'size_t'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  scene.cpp
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\scene.cpp(235,32): warning C4244: '=': 'ULONGLONG'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\scene.cpp(256,39): warning C4267: '=': 'size_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\scene.cpp(266,22): warning C4244: '=': 'time_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\scene.cpp(270,39): warning C4267: '=': 'size_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\scene.cpp(311,32): warning C4244: '=': 'ULONGLONG'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\scene.cpp(375,37): warning C4267: '=': 'size_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\scene.cpp(389,32): warning C4244: '=': 'ULONGLONG'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\scene.cpp(424,37): warning C4267: '=': 'size_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\scene.cpp(442,32): warning C4244: '=': 'ULONGLONG'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   Server.cpp
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\Server.cpp(76,29): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\Server.cpp(310,63): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\Server.cpp(354,59): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\Server.cpp(369,59): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\Network\Server\Server.cpp(76,29): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\Network\Server\Server.cpp(310,63): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\Network\Server\Server.cpp(354,59): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\Network\Server\Server.cpp(369,59): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   Socket.cpp
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\Socket.cpp(205,31): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\consoleGame1\Network\Socket.cpp(205,31): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
   Socketinit.cpp
-  sound.cpp
-  ui.cpp
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\ui.cpp(263,74): warning C4267: '인수': 'size_t'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\consoleGame1\ui.cpp(304,77): warning C4267: '인수': 'size_t'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   코드를 생성하고 있습니다...
-  consoleGame1.vcxproj -> E:\2021_3rd_Programming\C_Programming_Miniproject\봄버맨레볼루션_신강호\5_Project\Main_version\x64\Debug\BomberMan_Revolution.exe
+  consoleGame1.vcxproj -> E:\Git\봄버맨레볼루션_신강호\5_Project\Main_version\1Q_Console_Project\x64\Debug\BomberMan_Revolution.exe

@@ -118,6 +118,8 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalIncludeDirectories>.\PCH;$(ProjectDir)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderOutputFile>$(intDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -142,45 +144,45 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="bomb.cpp" />
-    <ClCompile Include="character.cpp" />
-    <ClCompile Include="client.cpp" />
-    <ClCompile Include="controller.cpp" />
-    <ClCompile Include="Endpoint.cpp" />
-    <ClCompile Include="Exception.cpp" />
-    <ClCompile Include="game.cpp" />
-    <ClCompile Include="Iocp.cpp" />
+    <ClCompile Include="Engine\controller.cpp" />
+    <ClCompile Include="Engine\render.cpp" />
+    <ClCompile Include="Engine\sound.cpp" />
+    <ClCompile Include="Game\bomb.cpp" />
+    <ClCompile Include="Game\character.cpp" />
+    <ClCompile Include="Game\game.cpp" />
+    <ClCompile Include="Game\map.cpp" />
+    <ClCompile Include="Game\scene.cpp" />
+    <ClCompile Include="Game\ui.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="map.cpp" />
-    <ClCompile Include="render.cpp" />
-    <ClCompile Include="scene.cpp" />
-    <ClCompile Include="Server.cpp" />
-    <ClCompile Include="Socket.cpp" />
-    <ClCompile Include="Socketinit.cpp" />
-    <ClCompile Include="sound.cpp" />
-    <ClCompile Include="stdafx.cpp">
+    <ClCompile Include="Network\Client\client.cpp" />
+    <ClCompile Include="Network\Endpoint.cpp" />
+    <ClCompile Include="Network\Exception\Exception.cpp" />
+    <ClCompile Include="Network\Iocp.cpp" />
+    <ClCompile Include="Network\Server\Server.cpp" />
+    <ClCompile Include="Network\Socket.cpp" />
+    <ClCompile Include="Network\Socketinit.cpp" />
+    <ClCompile Include="PCH\stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="ui.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="bomb.h" />
-    <ClInclude Include="character.h" />
-    <ClInclude Include="client.h" />
-    <ClInclude Include="controller.h" />
-    <ClInclude Include="Endpoint.h" />
-    <ClInclude Include="Exception.h" />
-    <ClInclude Include="game.h" />
-    <ClInclude Include="sound.h" />
-    <ClInclude Include="stdafx.h" />
-    <ClInclude Include="Iocp.h" />
-    <ClInclude Include="map.h" />
-    <ClInclude Include="render.h" />
-    <ClInclude Include="scene.h" />
-    <ClInclude Include="Server.h" />
-    <ClInclude Include="Socket.h" />
-    <ClInclude Include="Socketinit.h" />
-    <ClInclude Include="ui.h" />
+    <ClInclude Include="Engine\controller.h" />
+    <ClInclude Include="Engine\render.h" />
+    <ClInclude Include="Engine\sound.h" />
+    <ClInclude Include="Game\bomb.h" />
+    <ClInclude Include="Game\character.h" />
+    <ClInclude Include="Game\game.h" />
+    <ClInclude Include="Game\map.h" />
+    <ClInclude Include="Game\scene.h" />
+    <ClInclude Include="Game\ui.h" />
+    <ClInclude Include="Network\Client\client.h" />
+    <ClInclude Include="Network\Endpoint.h" />
+    <ClInclude Include="Network\Exception\Exception.h" />
+    <ClInclude Include="Network\Iocp.h" />
+    <ClInclude Include="Network\Server\Server.h" />
+    <ClInclude Include="Network\Socket.h" />
+    <ClInclude Include="Network\Socketinit.h" />
+    <ClInclude Include="PCH\stdafx.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

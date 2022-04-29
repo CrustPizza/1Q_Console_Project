@@ -59,110 +59,110 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="game.cpp">
-      <Filter>Game</Filter>
-    </ClCompile>
-    <ClCompile Include="Server.cpp">
-      <Filter>Network\Server</Filter>
-    </ClCompile>
-    <ClCompile Include="Iocp.cpp">
-      <Filter>Network\Iocp</Filter>
-    </ClCompile>
-    <ClCompile Include="Socket.cpp">
-      <Filter>Network\Socket</Filter>
-    </ClCompile>
-    <ClCompile Include="Endpoint.cpp">
-      <Filter>Network\Endpoint</Filter>
-    </ClCompile>
-    <ClCompile Include="Exception.cpp">
-      <Filter>Network\Exception</Filter>
-    </ClCompile>
-    <ClCompile Include="Socketinit.cpp">
-      <Filter>Network\Socket</Filter>
-    </ClCompile>
-    <ClCompile Include="scene.cpp">
-      <Filter>Game\Scene</Filter>
-    </ClCompile>
-    <ClCompile Include="controller.cpp">
-      <Filter>Engine\Controller</Filter>
-    </ClCompile>
-    <ClCompile Include="character.cpp">
-      <Filter>Game\Character</Filter>
-    </ClCompile>
-    <ClCompile Include="render.cpp">
-      <Filter>Engine\Render</Filter>
-    </ClCompile>
-    <ClCompile Include="ui.cpp">
-      <Filter>Game\UI</Filter>
-    </ClCompile>
-    <ClCompile Include="map.cpp">
-      <Filter>Game\Map</Filter>
-    </ClCompile>
-    <ClCompile Include="bomb.cpp">
-      <Filter>Game\Bomb</Filter>
-    </ClCompile>
-    <ClCompile Include="client.cpp">
-      <Filter>Network\Client</Filter>
-    </ClCompile>
-    <ClCompile Include="stdafx.cpp">
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PCH\stdafx.cpp">
       <Filter>PCH</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="sound.cpp">
+    <ClCompile Include="Engine\controller.cpp">
+      <Filter>Engine\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Socket.cpp">
+      <Filter>Network\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Socketinit.cpp">
+      <Filter>Network\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Server\Server.cpp">
+      <Filter>Network\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Iocp.cpp">
+      <Filter>Network\Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Exception\Exception.cpp">
+      <Filter>Network\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Endpoint.cpp">
+      <Filter>Network\Endpoint</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Client\client.cpp">
+      <Filter>Network\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\ui.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\scene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\map.cpp">
+      <Filter>Game\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\character.cpp">
+      <Filter>Game\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\bomb.cpp">
+      <Filter>Game\Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\sound.cpp">
       <Filter>Engine\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\render.cpp">
+      <Filter>Engine\Render</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Server.h">
-      <Filter>Network\Server</Filter>
-    </ClInclude>
-    <ClInclude Include="stdafx.h">
+    <ClInclude Include="PCH\stdafx.h">
       <Filter>PCH</Filter>
     </ClInclude>
-    <ClInclude Include="Iocp.h">
-      <Filter>Network\Iocp</Filter>
-    </ClInclude>
-    <ClInclude Include="Socket.h">
-      <Filter>Network\Socket</Filter>
-    </ClInclude>
-    <ClInclude Include="Endpoint.h">
-      <Filter>Network\Endpoint</Filter>
-    </ClInclude>
-    <ClInclude Include="Exception.h">
-      <Filter>Network\Exception</Filter>
-    </ClInclude>
-    <ClInclude Include="Socketinit.h">
-      <Filter>Network\Socket</Filter>
-    </ClInclude>
-    <ClInclude Include="scene.h">
-      <Filter>Game\Scene</Filter>
-    </ClInclude>
-    <ClInclude Include="controller.h">
+    <ClInclude Include="Engine\controller.h">
       <Filter>Engine\Controller</Filter>
     </ClInclude>
-    <ClInclude Include="character.h">
-      <Filter>Game\Character</Filter>
+    <ClInclude Include="Network\Socket.h">
+      <Filter>Network\Socket</Filter>
     </ClInclude>
-    <ClInclude Include="render.h">
-      <Filter>Engine\Render</Filter>
+    <ClInclude Include="Network\Socketinit.h">
+      <Filter>Network\Socket</Filter>
     </ClInclude>
-    <ClInclude Include="ui.h">
-      <Filter>Game\UI</Filter>
+    <ClInclude Include="Network\Server\Server.h">
+      <Filter>Network\Server</Filter>
     </ClInclude>
-    <ClInclude Include="map.h">
-      <Filter>Game\Map</Filter>
+    <ClInclude Include="Network\Iocp.h">
+      <Filter>Network\Iocp</Filter>
     </ClInclude>
-    <ClInclude Include="bomb.h">
-      <Filter>Game\Bomb</Filter>
+    <ClInclude Include="Network\Exception\Exception.h">
+      <Filter>Network\Exception</Filter>
     </ClInclude>
-    <ClInclude Include="client.h">
+    <ClInclude Include="Network\Endpoint.h">
+      <Filter>Network\Endpoint</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Client\client.h">
       <Filter>Network\Client</Filter>
     </ClInclude>
-    <ClInclude Include="game.h">
+    <ClInclude Include="Game\game.h">
       <Filter>Game</Filter>
     </ClInclude>
-    <ClInclude Include="sound.h">
+    <ClInclude Include="Game\ui.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\scene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\map.h">
+      <Filter>Game\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\character.h">
+      <Filter>Game\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\bomb.h">
+      <Filter>Game\Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\sound.h">
       <Filter>Engine\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\render.h">
+      <Filter>Engine\Render</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
